@@ -1,7 +1,5 @@
 ## 2.2 자바스크립트의 표준화
 
----
-
 ES5 → ES6로 업데이트하면서 큰 변화 발생
 |버전|출시 연도|특징|
 |:---|:---:|:---|
@@ -17,8 +15,6 @@ ES5 → ES6로 업데이트하면서 큰 변화 발생
 |ES11(ECMAScript 2020)|2020|String.prototype.matchAll, BigInt, globalThis, Promise.allSettled, null 병합 연산자, 옵셔널 체이닝 연산자, for...in enumeration order|
 
 ## 2.3 자바스크립트 성장의 역사
-
----
 
 ```
 초창기 자바스크립트
@@ -87,8 +83,6 @@ SPA 프레임워크
 
 ## 2.4 자바스크립트와 ECMAScript
 
----
-
 ```
 EcMAScript
 
@@ -102,8 +96,6 @@ EcMAScript
 ```
 
 ## 2.5 자바스크립트의 특징
-
----
 
 - 개발자가 별도의 컴파일 작업을 수행하지 않는 `인터프리터 언어`
 - 명령형(imperative), 함수형(functional), 프로토타입 기반(prototype-based) 객체지향 프로그래밍을 지원하는 멀티 패러다임 프로그래밍 언어
