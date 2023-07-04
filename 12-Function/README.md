@@ -72,6 +72,9 @@ var add = function (x, y) {
 };
 
 console.log(add(2, 5)); // → 7
+
+// 함수 이름은 함수 몸체 내부에서만 유효한 식별자다. ⇒ 함수 이름으로 호출하면 ReferenceError 발생.
+console.log(foo(2, 5)); // → ReferenceError: foo is not defined
 ```
 
 함수를 호출할 때는 함수 이름이 아니라 함수 객체를 가리키는 식별자를 사용해야 한다.
@@ -243,10 +246,12 @@ var logAll = function (i) {
 
 repeat(5, logAll); // → 0, 1, 2, 3, 4
 
+// logOdds 함수는 단 한 번만 생성된다.
 var logOdds = function (i) {
   if (i % 2) console.log(i);
 };
 
+// 고차 함수에 함수 참조를 전달한다.
 repeat(5, logOdds); // → 1, 3
 ```
 

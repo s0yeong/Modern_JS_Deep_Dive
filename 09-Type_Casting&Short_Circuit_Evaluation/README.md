@@ -45,6 +45,12 @@
 
 암묵적 타입 변환이 발생하면 문자열, 숫자, 불리언과 같은 원시 타입 중 하나로 타입을 자동 변환한다.
 
+## 명시적 타입 변환
+
+개발자의 의도에 따라 명시적으로 타입을 변경하는 방법은 다양하다.
+
+표준 빌트인 생성자 함수(String, Number, Boolean)를 new 연산자 없이 호출하는 방법과 빌트인 메서드를 사용하는 방법, 그리고 암묵적 타입 변환을 이용하는 방법이 있다.
+
 ### 불리언 타입으로 변환
 
 자바스크립트 엔진은 불리언 타입이 아닌 값을 `Truthy 값(참으로 평가되는 값)` or `Falsy 값(거짓으로 평가되는 값)`으로
@@ -64,7 +70,7 @@
 | `true \|\| anything`  | true      |
 | `false \|\| anything` | anything  |
 | `true && anything`    | anything  |
-| `false && anything`   | true      |
+| `false && anything`   | false     |
 
 단축 평가를 사용하면 if문을 대체할 수 있다.
 
